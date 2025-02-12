@@ -1,0 +1,11 @@
+- Problem Link : "https://leetcode.com/problems/return-length-of-arguments-passed/"
+
+Problem Brief:
+The task is to create a function that returns the number of arguments passed to it.
+
+Key Requirements:
+
+1. The function should accept a variable number of arguments.
+2. It should return the count of the arguments passed.
+3. The arguments can be of any type (numbers, strings, objects, arrays, etc.).
+4. If no arguments are passed, it should return 0.
