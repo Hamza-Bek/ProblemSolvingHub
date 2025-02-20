@@ -1,3 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿class Program
+{
+    static string timeConversion(string s)
+    {
+       return DateTime.ParseExact(s, "hh:mm:sstt", null).ToString("HH:mm:ss");
+    }
 
-Console.WriteLine("Hello, World!");
+    static void Main(string[] args)
+    {
+        string s = "07:05:45PM";
+        Console.WriteLine(timeConversion(s));
+    }
+}
